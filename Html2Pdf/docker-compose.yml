@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  html2pdfdocker:
+    image: ${DOCKER_REGISTRY}html2pdfdocker
+    build:
+      context: .
+      dockerfile: Html2PdfDocker/Dockerfile

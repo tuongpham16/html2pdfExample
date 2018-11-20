@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html2Pdf", "Html2Pdf\Html2Pdf.csproj", "{F09F23E4-F28C-43FF-8503-00F65C19EBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html2PdfDocker", "Html2PdfDocker\Html2PdfDocker.csproj", "{FA546977-4E92-4183-9BF4-0E78981CF108}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{954F96EE-EF7E-4F8B-8297-6B30414D4B2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F09F23E4-F28C-43FF-8503-00F65C19EBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09F23E4-F28C-43FF-8503-00F65C19EBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09F23E4-F28C-43FF-8503-00F65C19EBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09F23E4-F28C-43FF-8503-00F65C19EBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA546977-4E92-4183-9BF4-0E78981CF108}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA546977-4E92-4183-9BF4-0E78981CF108}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA546977-4E92-4183-9BF4-0E78981CF108}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA546977-4E92-4183-9BF4-0E78981CF108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{954F96EE-EF7E-4F8B-8297-6B30414D4B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{954F96EE-EF7E-4F8B-8297-6B30414D4B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{954F96EE-EF7E-4F8B-8297-6B30414D4B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{954F96EE-EF7E-4F8B-8297-6B30414D4B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55F11015-7476-4FD0-A29E-9AC0D982291C}
+	EndGlobalSection
+EndGlobal
